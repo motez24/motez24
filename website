@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Panora - Your one-stop online shop for a variety of products.">
+    <title>Panora Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Panora Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h2>Welcome to Panora!</h2>
+        <p>Your one-stop online shop for all your needs.</p>
+        <a href="#products" class="cta-btn">Shop Now</a>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <!-- Product items -->
+            <div class="product-item">
+                <img src="path_to_product_image.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1</p>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Panora</h2>
+        <p>Panora is dedicated to offering a wide variety of quality products, catering to your every need, all in one place.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Panora Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
